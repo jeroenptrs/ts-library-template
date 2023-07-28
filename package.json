@@ -55,7 +55,9 @@
   },
   "jest": {
     "verbose": true,
-    "rootDir": "src",
-    "preset": "ts-jest"
+    "rootDir": "./src",
+    "preset": "ts-jest",
+    "collectCoverage": true,
+    "coverageDirectory": "../coverage"
   }
 }
