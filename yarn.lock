@@ -582,9 +582,9 @@
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
 "@jeroenpeeters/tsconfig@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@jeroenpeeters/tsconfig/-/tsconfig-1.0.0.tgz#8619373744ca33f68020a90bf7616d23fd998169"
-  integrity sha512-hpeZmmsfGu/LKbhGmxrb2hOUmwxpImUvT5wtor9h4jsECp8hvYvPPOL1t7WP+LmhnwxIPwN4rjhZFbiLrrpWiw==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@jeroenpeeters/tsconfig/-/tsconfig-1.1.0.tgz#404889b82de7b0d1e409b24b7e35768d4f888b58"
+  integrity sha512-RjBVrnMjTP3PkbslRa/D1rACafBVbxd6h5d4dEUsnWdne2yy2L4D9fHR+q5tnX/B6FWXzV0UP/x/PG56WnsTBQ==
 
 "@jest/console@^29.6.2":
   version "29.6.2"
