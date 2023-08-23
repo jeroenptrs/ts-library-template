@@ -469,50 +469,30 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@effect/data@^0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@effect/data/-/data-0.17.0.tgz#4fa3bb2e788b135c8cc458326d90a956c7f89ae0"
-  integrity sha512-hBncTBQ4F3lggBjFgCgJVcPuesMSVRH2SSdGPbY4DDaGu19xyRX8dImJuoN6uniZG307MacHpwn/dDkqAVzITA==
+"@effect/data@^0.17.6":
+  version "0.17.6"
+  resolved "https://registry.yarnpkg.com/@effect/data/-/data-0.17.6.tgz#43d0f1f2283f1ff471094947eb466893a3ec80de"
+  integrity sha512-/vwz7Jh05eS0qY8kczR/YyJd18d0C+PMtUkAealh4f6gwvhABLGCnktNJTcq/+UHxY0Cbv18r5uaJ4+7PPC+WQ==
 
-"@effect/io@^0.36.0":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@effect/io/-/io-0.36.1.tgz#1dca47ef14ecb4984007b14ee8aebe4ab6033f58"
-  integrity sha512-qktbbvQX+tCQ2wxBcpr8g89ZAIAzRaq+/tWGogdVxfthWIhiLSagMeKYzLHqQ/MaXzN7sQSYLHbFgxcE+D8keQ==
-  dependencies:
-    "@effect/data" "^0.17.0"
+"@effect/io@^0.38.2":
+  version "0.38.2"
+  resolved "https://registry.yarnpkg.com/@effect/io/-/io-0.38.2.tgz#6acbae5ea7e1dcca55766718a9fc4d14a184773b"
+  integrity sha512-rnAXFo9BDLbY7DgQE1e8uP/sEniyVCsB7gNs+yXPu0XK9s4kaGinH6XgwYRDBuu7Fu1tQ1yd7JoAdEb7yutNRg==
 
-"@effect/match@^0.30.0":
-  version "0.30.0"
-  resolved "https://registry.yarnpkg.com/@effect/match/-/match-0.30.0.tgz#08bb5a6e4ca68334ea76d26336dc5ffe27fd24b4"
-  integrity sha512-v8e482mry9kQatjrFxM9NMjM0BRcR2l5xzSlkMPdFgqIww4ABItP4v46jbp59XqU2lSVF0lGpmgQ+qJe2FyCZA==
-  dependencies:
-    "@effect/data" "^0.17.0"
-    "@effect/schema" "^0.31.0"
+"@effect/match@^0.34.0":
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/@effect/match/-/match-0.34.0.tgz#02ae9cea4b305d6b8dd22035fcef994109f1ffc0"
+  integrity sha512-3fPqDT81rOU+83s84dx7Dh8pMtBq6BE+FGxq5U6FB48IeUdr35jayeuIXe6ZGQC6YorM3GJny6XYO5gOy0AAow==
 
-"@effect/schema@^0.31.0":
-  version "0.31.0"
-  resolved "https://registry.yarnpkg.com/@effect/schema/-/schema-0.31.0.tgz#93ad45c477f3a4f6b2607d773746915dee67b615"
-  integrity sha512-bVAUl6Y0Fn0VL+gGHFsuqjtj4OvPl4bdEK/AFG3jsNor/cZK5vY1H8j1xDiCVJro2Wsu/GuISNu8wJQoXVRxEQ==
-  dependencies:
-    "@effect/data" "^0.17.0"
-    "@effect/io" "^0.36.0"
-    fast-check "^3.12.0"
+"@effect/stm@^0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@effect/stm/-/stm-0.22.0.tgz#3d9ba49aa4a9e4cb69de09f46ccd5cb4dfd55df0"
+  integrity sha512-K+v05Iveg9h//xZbo/JekZE4mHln8QA7dpfl84L3VKQlUfiAZOiN4ABTyb41Ly+n+YywSSbeTdbOya0ccxx/rQ==
 
-"@effect/stm@^0.20.0":
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/@effect/stm/-/stm-0.20.0.tgz#c5f0c1d68fad72148205efdd7841d6829037f005"
-  integrity sha512-LwTXGlbNvfabgItFwUf4/xPDyYHyzkWqmxFcGN10h6zKWATpOvMe7mHDtbO+rnXDRiJTW6NCoc9ojGwGDQvfHQ==
-  dependencies:
-    "@effect/data" "^0.17.0"
-    "@effect/io" "^0.36.0"
-
-"@effect/stream@^0.32.0":
-  version "0.32.1"
-  resolved "https://registry.yarnpkg.com/@effect/stream/-/stream-0.32.1.tgz#2c6832ef6f6426a6c1d2b0b163c67365a4ede1b3"
-  integrity sha512-Oz5+PFSeNFpo0MUgqYK0vfS7IxQdRnwLPeArzrZocUoxuEnnDgyRB3vZodKMU/EZxVlGg3WJ88wxRpguFDKGbg==
-  dependencies:
-    "@effect/data" "^0.17.0"
-    "@effect/io" "^0.36.0"
+"@effect/stream@^0.34.0":
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/@effect/stream/-/stream-0.34.0.tgz#e5873ec72ae3bc3e6c63016d837931955e53face"
+  integrity sha512-8eDDQ0JG+ctsstLH/Qo4ojBkcEIFtqpEsWZS6leAwY9gXVmEG54PMWXZiX6dTchgQXKmSnLkEh36leAq4piawQ==
 
 "@eslint-community/eslint-utils@^4.2.0", "@eslint-community/eslint-utils@^4.4.0":
   version "4.4.0"
@@ -1715,15 +1695,15 @@ dot-prop@^5.1.0:
     is-obj "^2.0.0"
 
 effect@^2.0.0-next.22:
-  version "2.0.0-next.22"
-  resolved "https://registry.yarnpkg.com/effect/-/effect-2.0.0-next.22.tgz#6f4c5912e07be845da7b113ede2b4ae22cd6f3a5"
-  integrity sha512-ADvLj4oMHiAmvzw5ILdKgqlHZh4k3NuRi0X/yyr7YQNFi7Pk/hlX0EtFxLJEV7KAaXSOzELR3JDKGrurM+UPaA==
+  version "2.0.0-next.29"
+  resolved "https://registry.yarnpkg.com/effect/-/effect-2.0.0-next.29.tgz#9a12e16475df8a52936a2367545c7da1fc0c46b2"
+  integrity sha512-CgQRDXcaGVBJUS7816vOwIP9CPRKXYBZMOP4ifJ4UdDLs1t/+EE4FSjiaHHjOCqIU7pRyCi2QZYuDjAT3OgFaw==
   dependencies:
-    "@effect/data" "^0.17.0"
-    "@effect/io" "^0.36.0"
-    "@effect/match" "^0.30.0"
-    "@effect/stm" "^0.20.0"
-    "@effect/stream" "^0.32.0"
+    "@effect/data" "^0.17.6"
+    "@effect/io" "^0.38.2"
+    "@effect/match" "^0.34.0"
+    "@effect/stm" "^0.22.0"
+    "@effect/stream" "^0.34.0"
 
 electron-to-chromium@^1.4.431:
   version "1.4.476"
@@ -1967,13 +1947,6 @@ expect@^29.0.0, expect@^29.6.2:
     jest-matcher-utils "^29.6.2"
     jest-message-util "^29.6.2"
     jest-util "^29.6.2"
-
-fast-check@^3.12.0:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/fast-check/-/fast-check-3.12.0.tgz#440949277387a053f7f82cd532fa3fcf67346ba1"
-  integrity sha512-SqahE9mlL3+lhjJ39joMLwcj6F+24hfZdf/tchlNO8sHcTdrUUdA5P/ZbSFZM9Xpzs36XaneGwE0FWepm/zyOA==
-  dependencies:
-    pure-rand "^6.0.0"
 
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
